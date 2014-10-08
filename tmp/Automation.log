@@ -1,0 +1,262 @@
+2014-09-24_1854 home.sh --- SGS2 Connected to WIFI
+2014-09-24_1854 home.sh --- Running Lights.sh nodebug
+2014-09-24_1854 home.sh ---
+2014-09-24_1854 lights.sh - Checking sunset time
+2014-09-24_1854 lights.sh - Sunset today is at 7:04 pm
+2014-09-24_1854 lights.sh - Convert to 24h
+2014-09-24_1854 lights.sh - 30 mins prior to sunset 1834
+2014-09-24_1854 lights.sh - Current time is 1854
+2014-09-24_1854 lights.sh - Lights already on
+2014-09-24_1854 home.sh --- lights.sh complete
+2014-09-24_1854 home.sh ---
+2014-09-24_1854 home.sh --- Running wake.sh nodebug
+2014-09-24_1854 home.sh ---
+2014-09-24_1854 wake.sh --- Checking if mediacentre online
+2014-09-24_1854 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-25_1829 home.sh --- SGS2 Connected to WIFI
+2014-09-25_1829 home.sh --- Running Lights.sh nodebug
+2014-09-25_1829 home.sh ---
+2014-09-25_1829 lights.sh - Checking sunset time
+2014-09-25_1829 lights.sh - Sunset today is at 7:02 pm
+2014-09-25_1829 lights.sh - Convert to 24h
+2014-09-25_1829 lights.sh - 30 mins prior to sunset 1832
+2014-09-25_1829 lights.sh - Current time is 1829
+2014-09-25_1829 lights.sh - Lights Off
+2014-09-25_1829 home.sh --- lights.sh complete
+2014-09-25_1829 home.sh ---
+2014-09-25_1829 home.sh --- Running wake.sh nodebug
+2014-09-25_1829 home.sh ---
+2014-09-25_1829 wake.sh --- Checking if mediacentre online
+2014-09-25_1829 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-25_2311 home.sh --- SGS2 Connected to WIFI
+2014-09-25_2311 home.sh --- Running Lights.sh nodebug
+2014-09-25_2311 home.sh ---
+off
+2014-09-25_2311 lights.sh - Checking sunset time
+2014-09-25_2311 lights.sh - Sunset today is at 7:02 pm
+2014-09-25_2311 lights.sh - Convert to 24h
+2014-09-25_2311 lights.sh - 30 mins prior to sunset 1832
+2014-09-25_2311 lights.sh - Current time is 2311
+2014-09-25_2311 lights.sh - Lights On
+2014-09-25_2311 home.sh --- lights.sh complete
+2014-09-25_2311 home.sh ---
+2014-09-25_2311 home.sh --- Running wake.sh nodebug
+2014-09-25_2311 home.sh ---
+2014-09-25_2311 home.sh --- SGS2 Connected to WIFI
+2014-09-25_2311 home.sh --- Running Lights.sh nodebug
+2014-09-25_2311 home.sh ---
+off
+2014-09-25_2311 lights.sh - Checking sunset time
+2014-09-25_2311 lights.sh - Sunset today is at 7:02 pm
+2014-09-25_2311 lights.sh - Convert to 24h
+2014-09-25_2311 lights.sh - 30 mins prior to sunset 1832
+2014-09-25_2311 lights.sh - Current time is 2311
+2014-09-25_2311 lights.sh - Lights On
+2014-09-25_2311 home.sh --- lights.sh complete
+2014-09-25_2311 home.sh ---
+2014-09-25_2311 home.sh --- Running wake.sh nodebug
+2014-09-25_2311 home.sh ---
+2014-09-25_2311 wake.sh --- Checking if mediacentre online
+2014-09-25_2311 wake.sh --- mediacentre not detected - trying WOL
+2014-09-25_2312 wake.sh --- Checking if mediacentre online
+2014-09-25_2312 wake.sh --- mediacentre not detected - trying WOL
+2014-09-25_2312 wake.sh --- Checking if mediacentre online
+2014-09-25_2312 wake.sh --- mediacentre not detected - trying WOL
+2014-09-25_2313 wake.sh --- Checking if mediacentre online
+2014-09-25_2313 wake.sh --- mediacentre not detected - trying WOL
+2014-09-26_1644 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1644 home.sh --- Running Lights.sh nodebug
+2014-09-26_1644 home.sh ---
+off
+2014-09-26_1644 lights.sh - Checking sunset time
+2014-09-26_1644 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1644 lights.sh - Convert to 24h
+2014-09-26_1644 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1644 lights.sh - Current time is 1644
+2014-09-26_1644 lights.sh - Lights already off
+2014-09-26_1644 home.sh --- lights.sh complete
+2014-09-26_1644 home.sh ---
+2014-09-26_1644 home.sh --- Running wake.sh nodebug
+2014-09-26_1644 home.sh ---
+2014-09-26_1644 wake.sh --- Checking if mediacentre online
+2014-09-26_1644 wake.sh --- mediacentre not detected - trying WOL
+2014-09-26_1815 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1815 home.sh --- Running Lights.sh home
+2014-09-26_1815 home.sh ---
+off
+2014-09-26_1815 lights.sh - Checking sunset time
+2014-09-26_1815 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1815 lights.sh - Convert to 24h
+2014-09-26_1815 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1815 lights.sh - Current time is 1815
+2014-09-26_1815 lights.sh - Lights already off
+2014-09-26_1815 home.sh --- lights.sh complete
+2014-09-26_1815 home.sh ---
+2014-09-26_1815 home.sh --- Running wake.sh home
+2014-09-26_1815 home.sh ---
+2014-09-26_1815 wake.sh --- Checking if mediacentre online
+2014-09-26_1815 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_1818 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1818 home.sh --- Running Lights.sh home
+2014-09-26_1818 home.sh ---
+off
+2014-09-26_1818 lights.sh - Checking sunset time
+2014-09-26_1818 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1818 lights.sh - Convert to 24h
+2014-09-26_1818 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1818 lights.sh - Current time is 1818
+2014-09-26_1818 lights.sh - Lights already off
+2014-09-26_1818 home.sh --- lights.sh complete
+2014-09-26_1818 home.sh ---
+2014-09-26_1818 home.sh --- Running wake.sh home
+2014-09-26_1818 home.sh ---
+2014-09-26_1818 wake.sh --- Checking if mediacentre online
+2014-09-26_1818 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_1819 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1819 home.sh --- Running Lights.sh home
+2014-09-26_1819 home.sh ---
+off
+2014-09-26_1819 lights.sh - Checking sunset time
+2014-09-26_1819 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1819 lights.sh - Convert to 24h
+2014-09-26_1819 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1819 lights.sh - Current time is 1819
+2014-09-26_1819 lights.sh - Lights already off
+2014-09-26_1819 home.sh --- lights.sh complete
+2014-09-26_1819 home.sh ---
+2014-09-26_1819 home.sh --- Running wake.sh home
+2014-09-26_1819 home.sh ---
+2014-09-26_1819 wake.sh --- Checking if mediacentre online
+2014-09-26_1819 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_1819 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1819 home.sh --- Running Lights.sh home
+2014-09-26_1819 home.sh ---
+off
+2014-09-26_1819 lights.sh - Checking sunset time
+2014-09-26_1819 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1819 lights.sh - Convert to 24h
+2014-09-26_1819 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1819 lights.sh - Current time is 1819
+2014-09-26_1819 lights.sh - Lights already off
+2014-09-26_1819 home.sh --- lights.sh complete
+2014-09-26_1819 home.sh ---
+2014-09-26_1819 home.sh --- Running wake.sh home
+2014-09-26_1819 home.sh ---
+2014-09-26_1819 wake.sh --- Checking if mediacentre online
+2014-09-26_1819 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_1842 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1842 home.sh --- Running Lights.sh nodebug
+2014-09-26_1842 home.sh ---
+off
+2014-09-26_1842 lights.sh - Checking sunset time
+2014-09-26_1842 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1842 lights.sh - Convert to 24h
+2014-09-26_1842 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1842 lights.sh - Current time is 1842
+2014-09-26_1842 lights.sh - Lights On
+2014-09-26_1842 home.sh --- lights.sh complete
+2014-09-26_1842 home.sh ---
+2014-09-26_1842 home.sh --- Running wake.sh nodebug
+2014-09-26_1842 home.sh ---
+2014-09-26_1842 wake.sh --- Checking if mediacentre online
+2014-09-26_1842 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_1842 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1842 home.sh --- Running Lights.sh nodebug
+2014-09-26_1842 home.sh ---
+off
+2014-09-26_1842 lights.sh - Checking sunset time
+2014-09-26_1842 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1842 lights.sh - Convert to 24h
+2014-09-26_1842 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1842 lights.sh - Current time is 1842
+2014-09-26_1842 lights.sh - Lights On
+2014-09-26_1842 home.sh --- lights.sh complete
+2014-09-26_1842 home.sh ---
+2014-09-26_1842 home.sh --- Running wake.sh nodebug
+2014-09-26_1842 home.sh ---
+2014-09-26_1842 wake.sh --- Checking if mediacentre online
+2014-09-26_1842 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_1842 home.sh --- SGS2 Connected to WIFI
+2014-09-26_1842 home.sh --- Running Lights.sh nodebug
+2014-09-26_1842 home.sh ---
+off
+2014-09-26_1842 lights.sh - Checking sunset time
+2014-09-26_1842 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_1842 lights.sh - Convert to 24h
+2014-09-26_1842 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_1842 lights.sh - Current time is 1842
+2014-09-26_1842 lights.sh - Lights On
+2014-09-26_1842 home.sh --- lights.sh complete
+2014-09-26_1842 home.sh ---
+2014-09-26_1842 home.sh --- Running wake.sh nodebug
+2014-09-26_1842 home.sh ---
+2014-09-26_1842 wake.sh --- Checking if mediacentre online
+2014-09-26_1842 wake.sh --- mediacentre not detected - trying WOL
+2014-09-26_2020 --- Home option running.
+2014-09-26_2020 --- SGS2 Detected
+2014-09-26_2020 --- Home option running.
+2014-09-26_2020 --- SGS2 Detected
+2014-09-26_2020 --- Home option running.
+2014-09-26_2020 --- SGS2 Detected
+2014-09-26_2021 --- Home option running.
+2014-09-26_2021 --- SGS2 Detected
+2014-09-26_2022 --- Home option running.
+2014-09-26_2022 --- SGS2 Detected
+2014-09-26_2228 home.sh --- SGS2 Connected to WIFI
+2014-09-26_2228 home.sh --- Running Lights.sh Home
+2014-09-26_2228 home.sh ---
+off
+2014-09-26_2228 lights.sh - Checking sunset time
+2014-09-26_2228 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_2228 lights.sh - Convert to 24h
+2014-09-26_2228 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_2228 lights.sh - Current time is 2228
+2014-09-26_2228 lights.sh - Lights On
+2014-09-26_2228 home.sh --- lights.sh complete
+2014-09-26_2228 home.sh ---
+2014-09-26_2228 home.sh --- Running wake.sh Home
+2014-09-26_2228 home.sh ---
+2014-09-26_2228 wake.sh --- Checking if mediacentre online
+2014-09-26_2228 wake.sh --- mediacentre runnnig - skipping WOL
+2014-09-26_2229 home.sh --- SGS2 Connected to WIFI
+2014-09-26_2229 home.sh --- Running Lights.sh Home
+2014-09-26_2229 home.sh ---
+off
+2014-09-26_2229 lights.sh - Checking sunset time
+2014-09-26_2229 lights.sh - Sunset today is at 7:00 pm
+2014-09-26_2229 lights.sh - Convert to 24h
+2014-09-26_2229 lights.sh - 30 mins prior to sunset 1830
+2014-09-26_2229 lights.sh - Current time is 2229
+2014-09-26_2229 lights.sh - Lights On
+2014-09-26_2229 home.sh --- lights.sh complete
+2014-09-26_2229 home.sh ---
+2014-09-26_2229 home.sh --- Running wake.sh Home
+2014-09-26_2229 home.sh ---
+2014-09-26_2229 wake.sh --- Checking if mediacentre online
+2014-09-26_2229 wake.sh --- mediacentre not detected - trying WOL
+2014-09-27_1223 ha.sh --- Checking Option.
+Error 'Command' option invalid.
+2014-09-27_1833 ha.sh --- Checking 'Command' option.
+2014-09-27_1833 ha.sh --- Home option running.
+2014-09-27_1833 light.sh --- Running light.sh with 'Home' and 'Nodebug' Options.
+2014-09-27_1833 light.sh --- Checking 'Command' option.
+2014-09-27_1833 light.sh --- Home option running.
+2014-09-27_1833 light.sh --- Current light status off
+2014-09-27_1833 light.sh --- Sunset today is at 6:58 pm
+2014-09-27_1833 light.sh --- 30 mins prior to sunset 1828
+2014-09-27_1833 light.sh --- lights Home
+2014-09-27_1833 light.sh --- Checking if later then 30 minutes prior to sunset.
+2014-09-27_1833 light.sh --- Sunset time past - Switch lights on
+2014-09-27_1833 light.sh --- Lights On
+2014-09-30_1851 ha.sh --- Checking 'Command' option.
+2014-09-30_1851 ha.sh --- Home option running.
+2014-09-30_1851 light.sh --- Running light.sh with 'Home' and 'Nodebug' Options.
+2014-09-30_1851 light.sh --- Checking 'Command' option.
+2014-09-30_1851 light.sh --- Home option running.
+2014-09-30_1851 light.sh --- Current light status off
+2014-09-30_1851 light.sh --- Sunset today is at 6:51 pm
+2014-09-30_1851 light.sh --- 30 mins prior to sunset 1821
+2014-09-30_1851 light.sh --- lights Home
+2014-09-30_1851 light.sh --- Checking if later then 30 minutes prior to sunset.
+2014-09-30_1851 light.sh --- Sunset time past - Switch lights on
+2014-09-30_1851 light.sh --- Lights On

@@ -1,0 +1,11 @@
+{
+        "timer1":
+        {
+                "location":"living",
+                "state":"on",
+                "sunset":"true", # Optional
+                "day":["Sun,","Mon","Tue","Wed","Thu","Fri","Sat"], # Optional
+                "time":"18:55",
+                "devices":"television"
+        }
+}

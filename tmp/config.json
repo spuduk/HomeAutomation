@@ -1,0 +1,35 @@
+{
+	"living": {
+		"name": "Living",
+		"lamp": {
+			"name": "Lamp",
+			"protocol": [ "kaku_switch_old" ],
+			"id": [{
+				"id": 0,
+				"unit": 0
+			}],
+			"state": "off"
+		},
+		"television": {
+			"name": "Television",
+			"protocol": [ "kaku_switch_old" ],
+			"id": [{
+				"id": 7,
+				"unit": 0
+			}],
+			"state": "on"
+		}
+	},
+	"garden": {
+		"name": "Garden",
+		"light": {
+			"name": "Light",
+			"protocol": [ "kaku_switch_old" ],
+			"id": [{
+				"id": 1,
+				"unit": 0
+			}],
+			"state": "off"
+		}
+	}
+}
