@@ -1,0 +1,11 @@
+description "A basic upstart script to run HomeAutomation"
+author "Spud"
+
+start on started mountall
+stop on shutdown
+
+script
+  export HOME="/home/pi"
+  exec /usr/bin/php /home/pi/HomeAutomation.php >> /var/log/HomeAutomation.log 2>&1
+end script
+
