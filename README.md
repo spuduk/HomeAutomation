@@ -6,8 +6,14 @@ RaspberryPi
 433mhz Receiver and Transmitter
 PiLight
 
-Install
--------
+Auto Install
+------------
+
+sudo chmod +x setup.sh
+./setup.sh
+
+Manual Install
+--------------
 
 1. Download the latest copy of 'Raspbian' from 'http://www.raspberrypi.org/downloads/' and install to an sdcard.
 
@@ -17,3 +23,4 @@ Install
 	sudo apt-get update
 	sudo apt-get install pilight
 
+3.
