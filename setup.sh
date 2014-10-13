@@ -11,5 +11,7 @@
 sudo cp setup/config.json /etc/pilight/
 sudo cp setup/settings.json /etc/pilight/
 sudo cp setup/HomeAutomation.php /home/pi/
+sudo cp setup/lights.php /home/pi/HomeAutomation/
 sudo cp setup/init /etc/init/Home.conf
 sudo chmod +x /etc/init/Home.conf
+

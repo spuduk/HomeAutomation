@@ -47,6 +47,7 @@ while (1) {
 				//run startup sequence as mobile has been offline for more than 10mins
 				echo "Startup sequence.\n";
 				include $Home."HomeAutomation/HA.php";
+				include $Home."HomeAutomation/lights.php";
 				Startup();
 				$State = "online";
 				$LastCon = 0;

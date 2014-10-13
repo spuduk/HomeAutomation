@@ -1,9 +1,11 @@
 <?php
 echo "ha.php<br>";
 
-function Startup(){
-	echo "starting????\n";
-}
+//function Startup(){
+//	echo "starting????\n";
+//	Lights("Home");
+//	WOL("Home");
+//}
 
 //Set '$Command' from url
 $Command = $_GET['Com'];
@@ -12,6 +14,13 @@ $Command = $_GET['Com'];
 include "lights.php";
 include "error.php";
 include "mediacentre.php";
+
+function Startup(){
+        echo "starting????\n";
+        Lights("Home");
+        WOL("Home");
+	exit;
+}
 
 //Check '$Command'
 switch ($Command) {
