@@ -29,25 +29,26 @@ echo "Create Install Directory"
 USER_HOME=$(eval echo ~${SUDO_USER})
 InsDir=$USER_HOME"/HomeAutomation"
 
-#if [ ! -e $InsDir ]; then
+if [ ! -e $InsDir ]; then
 	sudo -u pi mkdir $InsDir
 	echo "Create DIR"
-#else
-#	echo "DIR Exists"
-#fi
+else
+	echo "DIR Exists"
+fi
 
 
 echo "Copying HomeAutomation files"
 InsFile=$InsDir"/HomeAutomation.php"
 
-#if [ -e $InsFile ]; then
-#	echo "Already installed"
-#else
+if [ -e $InsFile ]; then
+	echo "Already installed"
+else
 	echo "Copying"
 	cp setup/config.json /etc/pilight/
 	cp setup/settings.json /etc/pilight/
 	sudo -u pi cp setup/HomeAutomation.php $InsDir
 	sudo -u pi cp setup/lights.php $InsDir
+	sudo -u pi cp setup/mediacentre.php $InsDir
 fi
 
 echo "Create init script"

@@ -10,8 +10,10 @@ USER_HOME=$(eval echo ~${SUDO_USER})
 InsDir=$USER_HOME"/HomeAutomation"
 rm $InsDir"/HomeAutomation.php"
 rm $InsDir"/lights.php"
+rm $InsDir"/mediacentre.php"
 rm /etc/pilight/config.json
 rm /etc/pilight/settings.json
 rm /etc/init/Home.conf
 rmdir $InsDir
+
 

@@ -1,4 +1,7 @@
 <?php
+include "lights.php";
+include "mediacentre.php";
+
 //Set Variables
 //	'$DevAvail' = Store the result of mobile ip ping
 //	'$LastCon' = Mins since mobile Last Connected
@@ -46,15 +49,18 @@ while (1) {
 			if ($State == "offline"){
 				//run startup sequence as mobile has been offline for more than 10mins
 				echo "Startup sequence.\n";
-				include $Home."HomeAutomation/HA.php";
-				include $Home."HomeAutomation/lights.php";
-				Startup();
+
+				Lights("Home");
+				WOL("Home");
+
 				$State = "online";
 				$LastCon = 0;
 
 			}elseif ($State == "online"){
 				//run sunset check as mobile was disconnected for less than 10mins
-				echo "Check sunset.\n";
+				echo "Check Lights.\n";
+
+				Lights("Home");
 			}
 			//break from '$DevAvail' switch statement
 			break;
