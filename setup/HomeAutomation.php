@@ -8,6 +8,7 @@ $DevAvail = 0;
 $LastCon = 0;
 $State = "offline";
 $IP = "10.8.80.8";
+$Home = "/home/pi/";
 
 //Create infinate loop
 while (1) {
@@ -17,78 +18,65 @@ while (1) {
         switch ($DevAvail){
                 //If '$DevAvail' is '0'
                 case 0:
-			
+			//check mobile last state
+			if ($State == "online"){
+				//If '$LastCon' is less than 10mins
+				if ($LastCon < "10"){
+					echo "Mobile on IP :".$IP." was last seen online ".$LastCon." mins ago.\n";
+				//If '$LastCon' is greater than 10mins
+				}elseif ($LastCon > "9"){
+					//Run Shutdown Sequence here
+					echo "Shut down sequence.\n";
+					//Set state to offline as mobile has not been seen for more than 10mins
+					$State="offline";
+				//End of '$LastCon' if statement
+				}
+			}elseif ($State == "offline"){
+				echo "Still Offline\n";
+			}
+                        //Increment '$LastCon';
+                        $LastCon=$LastCon+1;
+
+                        //break from '$DevAvail' switch statement
 			break;
-		//If @$DevAvail' is '1'
+
+		//If '$DevAvail' is '1'
 		case 1:
-			
+			//check mobile last state
+			if ($State == "offline"){
+				//run startup sequence as mobile has been offline for more than 10mins
+				echo "Startup sequence.\n";
+				include $Home."HomeAutomation/HA.php";
+				Startup();
+				$State = "online";
+				$LastCon = 0;
+
+			}elseif ($State == "online"){
+				//run sunset check as mobile was disconnected for less than 10mins
+				echo "Check sunset.\n";
+			}
+			//break from '$DevAvail' switch statement
 			break;
+
+	//End of '$DevAvail' switch statement
 	}
 
-//End of infinate loop
+//Sleep for 1min.
+echo "Sleeping for 1 min.\n";
+sleep(60);
+
+//End of infinate while loop statement
 }
 ?>
 
 
 
-//Switch TV Socket off on startup.
+
 //echo exec("sudo pilight-control -l  living -d television -s off  > /dev/null &  ");
 
-//Create infinate loop
-//while (1) {
-	//Set '$DevAvail' to result of ping. Returns '1' for success, '0' for fail
-//	$DevAvail=`ping -c 1 $IP | grep -i "64" | wc -l`;
-
-	//Check '$DevAvail' result
-//	switch ($DevAvail){
-		//If '$DevAvail' is '0'
-//		case 0:
-			//Check '$state'
-//			switch ($state){
-				//If '$state' is 'offline'
-//				case offline:
-//					echo $LastCon." SGS2 not detected\n";
-					//Increment '$LastCon'
-//					$LastCon=$LastCon+1;
-
-					//If '$LastCon' greater than '10'
-//					if ($LastCon > "10"){
 						//Create email '$msg'
 //						$msg="S2 Not Detected ".date("H:i")."\n";
 //echo $msg;
 						//Sent email
-//						mail("mail@stewartspurrier.co.uk","HomeAutomation",$msg);
-//						exec("sudo pilight-control -l  living -d television -s off > /dev/null & \n");
-
-						//Reset '$LastCon'
-//						$LastCon=0;
-
-//						$state=0;
-//					}
-//					break;
-//				case 0:
-//					echo $LastCon." SGS2 Still not detected\n";
-//					break;
-//				}
-//			break;
-//		case 1:
-//			switch ($state){
-//				case 1:
-//					echo $LastCon." SGS2 Still detected\n";
-//					break;
-//				case 0;
-//					echo $LastCon." SGS2 detected\n";
-//					$LastCon = 0;
-//					$state=1;
-//					$msg="S2 Detected ".date("H:i")."\n";
-//					echo $msg;
-//					break;
-//				}
-//			mail("mail@stewartspurrier.co.uk","HomeAutomation",$msg);
-//			exec("sudo pilight-control -l  living -d television -s on  > /dev/null & \n");
-//			break;
-//		}
-//sleep (1);
-//}
-
-?>
+//						mail($EmailAddr,$EMailSubject,$msg);
+//echo exec("sudo pilight-control -l  living -d television -s off > /dev/null & \n");
