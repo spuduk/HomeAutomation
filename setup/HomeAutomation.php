@@ -74,7 +74,7 @@ while (1) {
 
 //Sleep for 1min.
 echo "Sleeping for 1 min.\n";
-sleep(5);
+sleep(60);
 
 //End of infinate while loop statement
 }

@@ -39,7 +39,7 @@ echo "function Turn(".$state.")\n";
 		//if light status is on
 //		case on:
 echo "Turning lights ".$state."\n";
-			echo exec("sudo pilight-control -l living -d television -s ".$state."\n");
+			echo exec("sudo pilight-control -l living -d lamp -s ".$state."\n");
 //                        echo exec("sudo pilight-control -l  living -d lamp -s ".$state."  > /dev/null &  ");
 //			break;
 
