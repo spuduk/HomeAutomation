@@ -6,6 +6,12 @@ RaspberryPi
 433mhz Receiver and Transmitter
 PiLight
 
+Mediacentre
+-----------
+Copy setup/shutdown.py & setup/shutdown.sh to xbmc home directory.
+make shutdown.sh executable
+add shutdown exception to sudoers
+
 Auto Install
 ------------
 

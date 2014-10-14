@@ -30,6 +30,10 @@ while (1) {
 				}elseif ($LastCon > "9"){
 					//Run Shutdown Sequence here
 					echo "Shut down sequence.\n";
+
+					Lights("Out");
+					WOL("Out");
+
 					//Set state to offline as mobile has not been seen for more than 10mins
 					$State="offline";
 				//End of '$LastCon' if statement
@@ -70,7 +74,7 @@ while (1) {
 
 //Sleep for 1min.
 echo "Sleeping for 1 min.\n";
-sleep(60);
+sleep(5);
 
 //End of infinate while loop statement
 }

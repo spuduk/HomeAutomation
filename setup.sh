@@ -21,7 +21,7 @@ else
 fi
 
 echo "Install PiLight and Apache2"
-apt-get -y --force-yes install pilight apache2 upstart
+apt-get -y --force-yes install pilight apache2 upstart etherwake
 
 
 echo "Create Install Directory"
