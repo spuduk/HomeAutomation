@@ -27,7 +27,7 @@ echo "Home Command\n";
 			break;
 		case 'Out':
 echo "Out Command\n";
-			echo exec("sudo /usr/bin/ssh xbmc@".$MCIP." sudo shutdown -P now");
+			echo exec("sudo /usr/bin/ssh xbmc@".$MCIP." /home/xbmc/shutdown.sh");
 //			echo exec("/usr/bin/ssh HA@".$MCIP." > /dev/null &");
 
 			//Break from switch/case block
