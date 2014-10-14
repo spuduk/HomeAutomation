@@ -15,6 +15,17 @@ $Home = "/home/pi/";
 
 //Create infinate loop
 while (1) {
+	//Header for each iteration.
+	echo " ___________________________\n";
+        echo "|                           |\n";
+        echo "|  Current Time is ;-".date("H:i")."  |\n";
+        echo "|___________________________|\n";
+
+
+
+
+
+
         //Set '$DevAvail' to result of ping. Returns '1' for success, '0' for fail
         $DevAvail=`ping -c 1 $IP | grep -i "64" | wc -l`;
         //Check '$DevAvail' result
@@ -25,7 +36,7 @@ while (1) {
 			if ($State == "online"){
 				//If '$LastCon' is less than 10mins
 				if ($LastCon < "10"){
-					echo "Mobile on IP :".$IP." was last seen online ".$LastCon." mins ago.\n";
+//					echo "Mobile on IP :".$IP." was last seen online ".$LastCon." mins ago.\n";
 				//If '$LastCon' is greater than 10mins
 				}elseif ($LastCon > "9"){
 					//Run Shutdown Sequence here
@@ -52,7 +63,7 @@ while (1) {
 			//check mobile last state
 			if ($State == "offline"){
 				//run startup sequence as mobile has been offline for more than 10mins
-				echo "Startup sequence.\n";
+				echo "|  Device Discovered        |\n";
 
 				Lights("Home");
 				WOL("Home");
@@ -62,7 +73,7 @@ while (1) {
 
 			}elseif ($State == "online"){
 				//run sunset check as mobile was disconnected for less than 10mins
-				echo "Check Lights.\n";
+                                echo "|  Device still Available   |\n";
 
 				Lights("Home");
 			}
@@ -73,7 +84,7 @@ while (1) {
 	}
 
 //Sleep for 1min.
-echo "Sleeping for 1 min.\n";
+echo "|                           |\n";
 sleep(60);
 
 //End of infinate while loop statement

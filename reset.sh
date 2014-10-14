@@ -14,6 +14,7 @@ rm $InsDir"/mediacentre.php"
 rm /etc/pilight/config.json
 rm /etc/pilight/settings.json
 rm /etc/init/Home.conf
+rm /var/log/HomeAutomation.log
 rmdir $InsDir
 
 

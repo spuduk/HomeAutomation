@@ -1,7 +1,6 @@
 <?php
 
 function Sunset(){
-        echo "function Sunset()\n";
 	//set Timezone.
 //	date_default_timezone_set("GMT");
 
@@ -10,10 +9,9 @@ function Sunset(){
 
 	//Get '$currenttime'
 	$currenttime = date("H:i");
-echo "The Current time is ".$currenttime."\n";
+//echo "The Current time is ".$currenttime."\n";
         //Set '$sunsetprior' to 30mins (1800 seconds) prior to '$sunset'
 	$sunsetprior=(date("H:i",$sunset-2700));
-echo "Todays Sunset minus 45mins is at ".$sunsetprior."\n";
 	//is '$currenttime' after to '$sunsetprior'
 	if ($currenttime > $sunsetprior){
 		return "After";
@@ -39,8 +37,8 @@ echo "function Turn(".$state.")\n";
 		//if light status is on
 //		case on:
 echo "Turning lights ".$state."\n";
-			echo exec("sudo pilight-control -l living -d lamp -s ".$state."\n");
-//                        echo exec("sudo pilight-control -l  living -d lamp -s ".$state."  > /dev/null &  ");
+//			echo exec("sudo pilight-control -l living -d lamp -s ".$state."\n");
+                        echo exec("sudo pilight-control -l living -d lamp -s ".$state."  > /dev/null &  ");
 //			break;
 
 		//if light status is off
@@ -54,26 +52,26 @@ echo "Turning lights ".$state."\n";
 }
 
 function Lights($Command){
-echo "function Lights(".$Command.")\n";
+echo "|  Lights()                 |\n";
 
 	//Check result of '$Command'
 	switch ($Command){
 
 		//If '$Command' is 'Home'
 		case 'Home':
-echo "Home Command\n";
+//echo "Home Command\n";
 
 			//Check result of 'Sunset()'
 			switch (Sunset()){
 				//if 'Sunset() returns 'After'
 				case 'After':
-echo "After adjusted Sunset time\n";
+//echo "After adjusted Sunset time\n";
 					Turn("on");
 					break;
 
 				//if @Sunset() returns 'Prior'
 				case 'Prior':
-echo "Prior to adjusted Sunset time\n";
+//echo "Prior to adjusted Sunset time\n";
 					break;
 
 				//End of 'switch (Sunset())'
@@ -82,7 +80,7 @@ echo "Prior to adjusted Sunset time\n";
 
 		//If 'Command' is Out
 		case 'Out':
-echo "Out Command\n";
+//echo "Out Command\n";
 			Turn("off");;
 			break;
 
