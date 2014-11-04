@@ -15,13 +15,13 @@ if [ $apt -ge 1 ]; then
 	echo "Respository already installed"
 else
 	echo "Adding Repository"
-#	echo "deb mirror://apt.pilight.org/mirror.txt stable main" >> /etc/apt/sources.list
-#	wget -O - http://apt.pilight.org/pilight.key | sudo apt-key add -
-#	apt-get -y update
+	echo "deb mirror://apt.pilight.org/mirror.txt stable main" >> /etc/apt/sources.list
+	wget -O - http://apt.pilight.org/pilight.key | sudo apt-key add -
+	apt-get -y update
 fi
 
 echo "Install PiLight and Apache2"
-apt-get -y --force-yes install pilight apache2 upstart etherwake
+apt-get -y --force-yes install pilight apache2 upstart etherwake php5
 
 
 echo "Create Install Directory"
@@ -71,3 +71,6 @@ fi
 
 echo "Applying executable tags"
 chmod +x /etc/init/Home.conf
+
+echo "Rebooting"
+shutdown -r now
